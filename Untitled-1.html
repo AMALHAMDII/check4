@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Amal Elhamdi</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+ 
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Bienvenue sur mon Portfolio</h1>
+    <p>Je suis <strong>Amal Elhamdi</strong>, jeune diplômée en électronique spécialisée en systèmes embarqués.</p>
+    <p>Voici un extrait audio :</p>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Votre navigateur ne supporte pas l'audio.
+    </audio>
+  </section>
+
+  
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Passionnée par la conception et le développement de solutions innovantes, je possède des compétences solides en programmation, conception de circuits et systèmes embarqués.</p>
+    <h3>Compétences :</h3>
+    <ul>
+      <li>Langages : C, C++, HTML, CSS, Java, VHDL</li>
+      <li>Outils : MATLAB, Proteus, Arduino IDE, SolidWorks</li>
+      <li>Cartes : Arduino, STM32, Raspberry Pi 4</li>
+    </ul>
+    <p>Voici une vidéo de démonstration :</p>
+    <video width="400" controls>
+      <source src="video.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+  </section>
+
+  
+  <section id="work">
+    <h2>Projets réalisés</h2>
+    <table border="1">
+      <tr>
+        <th>Projet</th>
+        <th>Technologies</th>
+        <th>Année</th>
+      </tr>
+      <tr>
+        <td>Robot suiveur de ligne</td>
+        <td>Arduino, SolidWorks, ISIS</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>Voiture télécommandée</td>
+        <td>Arduino, Python</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>Système de gestion de stock</td>
+        <td>Raspberry Pi 4, Électronique</td>
+        <td>2024</td>
+      </tr>
+    </table>
+  </section>
+
+  
+  <section id="resume">
+    <h2>Mon Parcours</h2>
+    <p><strong>Licence en Électronique, Électrotechnique et Automatique</strong> (spécialité systèmes embarqués), ISIMM Monastir - 2024</p>
+    <p><strong>Baccalauréat en sciences expérimentales</strong>, Siliana - 2020</p>
+  </section>
+
+  
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label>Nom :</label><br>
+      <input type="text" name="nom" required><br><br>
+
+      <label>Email :</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Message :</label><br>
+      <textarea name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Amal Elhamdi | Portfolio personnel</p>
+  </footer>
+
+</body>
+</html>
